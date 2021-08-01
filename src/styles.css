@@ -1,0 +1,175 @@
+body{
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: black;
+  font-family: "Poppins", sans-serif;
+}
+.navbar{
+  background-color: black;
+  display: flex;
+  height: 10%;
+
+
+}
+.navbar__items{
+  display: flex;
+}
+.navbar__brand {
+  width: 100px;
+  height: 100%;
+}
+.brand__logo {
+  width: 100%;
+  height: 100%;
+}
+.ElectronicsSelect{
+  background: transparent;
+   color: white;
+   border: none;
+}
+.ElectronicsSelect:focus{
+  outline-color: blue;
+}
+
+.nav__item{
+  margin: 10px 15px;
+}
+.nav__link{
+  color: white;
+  text-decoration: none;
+}
+.navbar__right{
+  display: flex;
+}
+.signin__button{
+  margin: 0;
+  background-color: #185ADB;
+  border: 1px solid #185ADB;
+ color: white;
+ padding: 0.25rem 0.5rem;
+ border-radius: 4px;
+ position: absolute;
+ right: 30px;
+ top: 5px;
+
+}
+.signin__form{
+  text-align: center;
+  background-color: black;
+  color: white;
+
+
+}
+.form__container{
+  text-align: center;
+  background: transparent;
+  position: absolute;
+  top:20%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+header.signin__form{
+  background-color: #2C394B;
+}
+.hero__bg__image__container {
+  width: 100%;
+  height: 75vh;
+}
+.hero__bg__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hero__card {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: absolute;
+  top: 30%;
+}
+.Siginin__bg__img__container{
+  width: 100%;
+  height: 100%;
+}
+.Siginin__bg__img{
+  width: 100%;
+  height: 100%;
+}
+.Products{
+  margin-top: 0px;
+
+
+}
+.product__img__container{
+  width: 50%;
+  height: 30%;
+  float: left;
+}
+.product__image{
+  width: 100%;
+  height: 100%;
+}
+.product__description{
+  display: flex;
+  flex-direction: column;
+  padding-top: 4%;
+  gap: 10px;
+
+}
+footer{
+  background-color: #171717;
+  padding: 50px;
+}
+.footer__container{
+  text-align: center;
+}
+.contact__link{
+  text-decoration:none;
+  font-size: 21px;
+  margin-right: 23px;
+}
+.COPYRIGHT{
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+
+@media (min-width: 1024px) {
+  .navbar{
+      height: 10%;
+  }
+  .hero__bg__image__container{
+    width: 100%;
+    height: 80vh;
+  }
+  .hero__card {
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-weight: 600;
+  font-size: 1.2rem;
+ }
+ .Products{
+   margin:6% auto;
+
+ }
+ .product__img__container{
+   width: 50%;
+   height: 30%;
+   float: left;
+ }
+ .product__image{
+   width: 100%;
+   height: 100%;
+ }
+ .product__description{
+   display: flex;
+   flex-direction: column;
+   padding-top: 4%;
+   gap: 10px;
+
+ }
+
+}
