@@ -1,7 +1,7 @@
 body{
   margin: 0;
   padding: 0;
-  color: white;
+  color:  #f6f1e9 ;
   background-color: black;
   font-family: "Poppins", sans-serif;
 }
@@ -31,7 +31,22 @@ body{
 .ElectronicsSelect:focus{
   outline-color: blue;
 }
+.dropdown_item{
+  color: black;
+  border: 1px solid black;
+}
 
+hr{
+  color: white;
+}
+.guidelines{
+  background-color: #F1E9E5;
+  color: black;
+  margin: 0;
+  line-height: 2.5;
+  font-size: 1.3rem;
+  padding: 3%;
+}
 .nav__item{
   margin: 10px 15px;
 }
@@ -63,11 +78,31 @@ body{
 }
 .form__container{
   text-align: center;
-  background: transparent;
+  background-color:  #f6f1e9 ;
   position: absolute;
-  top:20%;
+  top:50%;
   left: 50%;
   transform: translate(-50%,-50%);
+  color: black;
+  padding: 5%;
+  border-radius: 20px;
+
+}
+.signin_title{
+  margin-top: 0;
+  margin-bottom: 60px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.facebook{
+  padding: 5%;
+  color:white;
+  background-color: #4267B2;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+input{
+  border: 1px solid black;
 }
 header.signin__form{
   background-color: #2C394B;
@@ -91,11 +126,14 @@ header.signin__form{
 }
 .Siginin__bg__img__container{
   width: 100%;
-  height: 100%;
+  height: 100vh;
 }
 .Siginin__bg__img{
   width: 100%;
   height: 100%;
+}
+.SignIn_container{
+
 }
 .Products{
   margin-top: 0px;
@@ -104,7 +142,7 @@ header.signin__form{
 }
 .product__img__container{
   width: 50%;
-  height: 30%;
+  height: 25%;
   float: left;
 }
 .product__image{
