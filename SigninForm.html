@@ -21,21 +21,20 @@
         <a href="index.html">  <img src="https://neve.studio/wp-content/uploads/sony-logo-white-1.png" alt="logo" class="brand__logo"></a>
       </div>
       <div class="navbar__items">
-
         <div class="nav__item">
           <div class="dropdown__container">
-            <select class="ElectronicsSelect" name="electronics">
-              <option class="dropdown_item"  value="Electronics" selected>Electronics</option>
-              <option class="dropdown_item" value="Home Applience">Home Applience</option>
-              <option class="dropdown_item" value="Cameras">Cameras</option>
-              <option class="dropdown_item" value="Audio Devices">Audio Devices</option>
-              <option class="dropdown_item" value="Game Consoles">Game Consoles</option>
-              <option class="dropdown_item" value="Storage & Cables">Storage & Cables</option>
-            </select>
+            <div class="dropdown">
+              <button class="dropbtn">Categories <i class="fas fa-caret-down"></i></button>
+              <div class="dropdown-content">
+                <a href="Electronics.html">Electronis</a>
+                <a href="#">Camera</a>
+                <a href="#">Game</a>
+              </div>
+            </div>
           </div>
         </div>
         <div class="nav__item">
-          <a class="nav__link" href="#">Playstaion</a>
+          <a class="nav__link" href="Playstation.html">Playstaion</a>
         </div>
         <div class="nav__item">
           <a class="nav__link" href="#">Support</a>
@@ -54,7 +53,7 @@
   </header>
   <section>
   <div class="form__container">
-        <h2 class="signin_title">SignIn</h2>
+        <h2 class="signin_title">Login</h2>
         <label for="" placeholder="UserName Or Email">User Name</label>
         <input type="text" name="" value=""><br><br>
         <br>
@@ -63,19 +62,32 @@
         <input type="checkbox" name="" value="">
 
         <label for="">Remember Password</label><br><br>
-        <input style="color:white; background-color:gray; padding:2% 5%; border-radius:3px;" type="button" name="SignIn" value="SignIn">
-        <div class="facebook">
+        <input style="color:white; background-color:#261C2C; padding:2% 5%; border-radius:3px;" type="button" name="SignIn" value="Login">
+        <div style="margin-bottom:15px;" class="facebook">
           <a style="color:white;text-decoration:none;" href="#">
             <i style="margin-right:5px;" class="fab fa-facebook-f"></i>  Login with facebook</a>
-
         </div>
+        <a style="margin-top:15px; text-decoration:none; color:blue;" href="#">New to Sony? Create an account</a>
   </div>
+  <div class="Side_popup">
+    <div class="side_pop_text">
+      <h3 style="font-weight:800;">Get axis to your Order,</h3>
+    </div>
+    <div class="side_pop_text">
+       <h3 style="font-weight:800;">Wishlist and</h3>
+    </div>
+    <div class="side_pop_text">
+      <h3 style="font-weight:800;">Reccomendations.</h3>
+    </div>
+  </div>
+
         <div class="Siginin__bg__img__container">
-          <img src="https://s.yimg.com/os/creatr-uploaded-images/2021-07/b9fbc650-db1a-11eb-bfb5-6acbc4179f3b" alt="bg__image" class="Siginin__bg__img">
+          <img src="https://images.unsplash.com/photo-1468495244123-6c6c332eeece?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Z2FkZ2V0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80" alt="bg__image" class="Siginin__bg__img">
 
 
       </div>
     </section>
+
     <footer>
       <div class="footer__container">
         <a class="contact__link" href="#">Support</a>
